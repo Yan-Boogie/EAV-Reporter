@@ -12,7 +12,8 @@
     "build:rollup": "rollup --config ./rollup.config.js",
     "build:rollup:watch": "yarn build:rollup --watch",
     "commit": "git-cz",
-    "lint:ts": "eslint . --config .eslintrc --ext .js,.ts"
+    "lint:ts": "eslint . --config .eslintrc --ext .js,.ts",
+    "server": "yarn workspace server start"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

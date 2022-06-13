@@ -1,0 +1,599 @@
+{
+  "Summary": {
+    "Name": "NEKAEFYD",
+    "Time": "2022-05-19T00:00:00Z",
+    "UUID": "a36aa260-b897-45b1-a38b-7b641a217402",
+    "Type": "B",
+    "Location": "Asia/Taipei",
+    "Description": "Static B",
+    "ServerCnt": 451,
+    "ComputerCnt": 349,
+    "RouterCnt": 70,
+    "SwitchCnt": 82,
+    "UserCnt": 563,
+    "AdminCnt": 22,
+    "ServiceCnt": 89
+  },
+  "Statistics": [
+    [
+      {
+        "time": 1652803200000,
+        "key": "Computer",
+        "value": 217
+      },
+      {
+        "time": 1652803200000,
+        "key": "Server",
+        "value": 329
+      },
+      {
+        "time": 1652803200000,
+        "key": "Router",
+        "value": 42
+      },
+      {
+        "time": 1652803200000,
+        "key": "Switch",
+        "value": 23
+      },
+      {
+        "time": 1652803200000,
+        "key": "Service",
+        "value": 63
+      },
+      {
+        "time": 1652803200000,
+        "key": "User",
+        "value": 286
+      },
+      {
+        "time": 1652803200000,
+        "key": "Admin",
+        "value": 2
+      }
+    ],
+    [
+      {
+        "time": 1652716800000,
+        "key": "Computer",
+        "value": 362
+      },
+      {
+        "time": 1652716800000,
+        "key": "Server",
+        "value": 42
+      },
+      {
+        "time": 1652716800000,
+        "key": "Router",
+        "value": 6
+      },
+      {
+        "time": 1652716800000,
+        "key": "Switch",
+        "value": 46
+      },
+      {
+        "time": 1652716800000,
+        "key": "Service",
+        "value": 63
+      },
+      {
+        "time": 1652716800000,
+        "key": "User",
+        "value": 231
+      },
+      {
+        "time": 1652716800000,
+        "key": "Admin",
+        "value": 6
+      }
+    ],
+    [
+      {
+        "time": 1652630400000,
+        "key": "Computer",
+        "value": 219
+      },
+      {
+        "time": 1652630400000,
+        "key": "Server",
+        "value": 260
+      },
+      {
+        "time": 1652630400000,
+        "key": "Router",
+        "value": 2
+      },
+      {
+        "time": 1652630400000,
+        "key": "Switch",
+        "value": 53
+      },
+      {
+        "time": 1652630400000,
+        "key": "Service",
+        "value": 63
+      },
+      {
+        "time": 1652630400000,
+        "key": "User",
+        "value": 415
+      },
+      {
+        "time": 1652630400000,
+        "key": "Admin",
+        "value": 13
+      }
+    ],
+    [
+      {
+        "time": 1652544000000,
+        "key": "Computer",
+        "value": 314
+      },
+      {
+        "time": 1652544000000,
+        "key": "Server",
+        "value": 168
+      },
+      {
+        "time": 1652544000000,
+        "key": "Router",
+        "value": 25
+      },
+      {
+        "time": 1652544000000,
+        "key": "Switch",
+        "value": 37
+      },
+      {
+        "time": 1652544000000,
+        "key": "Service",
+        "value": 60
+      },
+      {
+        "time": 1652544000000,
+        "key": "User",
+        "value": 203
+      },
+      {
+        "time": 1652544000000,
+        "key": "Admin",
+        "value": 12
+      }
+    ],
+    [
+      {
+        "time": 1652457600000,
+        "key": "Computer",
+        "value": 161
+      },
+      {
+        "time": 1652457600000,
+        "key": "Server",
+        "value": 241
+      },
+      {
+        "time": 1652457600000,
+        "key": "Router",
+        "value": 30
+      },
+      {
+        "time": 1652457600000,
+        "key": "Switch",
+        "value": 46
+      },
+      {
+        "time": 1652457600000,
+        "key": "Service",
+        "value": 66
+      },
+      {
+        "time": 1652457600000,
+        "key": "User",
+        "value": 311
+      },
+      {
+        "time": 1652457600000,
+        "key": "Admin",
+        "value": 18
+      }
+    ],
+    [
+      {
+        "time": 1652371200000,
+        "key": "Computer",
+        "value": 27
+      },
+      {
+        "time": 1652371200000,
+        "key": "Server",
+        "value": 277
+      },
+      {
+        "time": 1652371200000,
+        "key": "Router",
+        "value": 7
+      },
+      {
+        "time": 1652371200000,
+        "key": "Switch",
+        "value": 16
+      },
+      {
+        "time": 1652371200000,
+        "key": "Service",
+        "value": 60
+      },
+      {
+        "time": 1652371200000,
+        "key": "User",
+        "value": 376
+      },
+      {
+        "time": 1652371200000,
+        "key": "Admin",
+        "value": 1
+      }
+    ],
+    [
+      {
+        "time": 1652284800000,
+        "key": "Computer",
+        "value": 30
+      },
+      {
+        "time": 1652284800000,
+        "key": "Server",
+        "value": 172
+      },
+      {
+        "time": 1652284800000,
+        "key": "Router",
+        "value": 16
+      },
+      {
+        "time": 1652284800000,
+        "key": "Switch",
+        "value": 12
+      },
+      {
+        "time": 1652284800000,
+        "key": "Service",
+        "value": 58
+      },
+      {
+        "time": 1652284800000,
+        "key": "User",
+        "value": 22
+      },
+      {
+        "time": 1652284800000,
+        "key": "Admin",
+        "value": 7
+      }
+    ]
+  ],
+  "LastLoginUsers": [
+    {
+      "time": "2022-05-17T18:14:12Z",
+      "endpointName": "Berkeley Offener",
+      "ip": "199.249.41.126",
+      "email": "boffener0@ucsd.edu",
+      "macAddress": "07-0E-ED-FC-FB-34"
+    },
+    {
+      "time": "2022-05-13T09:18:01Z",
+      "endpointName": "Thomasin Etchells",
+      "ip": "224.72.216.138",
+      "email": "tetchells1@virginia.edu",
+      "macAddress": "F0-50-1C-DE-AB-16"
+    },
+    {
+      "time": "2022-05-16T01:43:18Z",
+      "endpointName": "Ashlie Benion",
+      "ip": "149.103.247.68",
+      "email": "abenion2@sphinn.com",
+      "macAddress": "5A-DE-28-13-C7-D6"
+    },
+    {
+      "time": "2022-05-17T08:03:50Z",
+      "endpointName": "Laureen Morgans",
+      "ip": "53.237.52.36",
+      "email": "lmorgans3@seesaa.net",
+      "macAddress": "99-4D-8A-86-3B-24"
+    },
+    {
+      "time": "2022-05-17T06:16:59Z",
+      "endpointName": "Estel Stonhewer",
+      "ip": "31.11.47.144",
+      "email": "estonhewer4@wunderground.com",
+      "macAddress": "29-B3-64-85-A6-88"
+    },
+    {
+      "time": "2022-05-13T06:48:50Z",
+      "endpointName": "Ellynn De Ruel",
+      "ip": "188.22.142.105",
+      "email": "ede5@blog.com",
+      "macAddress": "7C-D1-DC-70-99-0F"
+    },
+    {
+      "time": "2022-05-15T04:03:50Z",
+      "endpointName": "Lilian Haysar",
+      "ip": "16.207.146.24",
+      "email": "lhaysar6@adobe.com",
+      "macAddress": "42-A6-4F-48-D6-66"
+    },
+    {
+      "time": "2022-05-13T21:26:31Z",
+      "endpointName": "Alaric Carsey",
+      "ip": "12.137.116.114",
+      "email": "acarsey7@geocities.com",
+      "macAddress": "49-FF-45-77-E8-22"
+    },
+    {
+      "time": "2022-05-17T08:54:44Z",
+      "endpointName": "Jake Pirrie",
+      "ip": "68.3.43.73",
+      "email": "jpirrie8@cdbaby.com",
+      "macAddress": "49-0A-C4-B4-B8-7A"
+    },
+    {
+      "time": "2022-05-17T23:45:15Z",
+      "endpointName": "Charlene Matieu",
+      "ip": "114.193.68.23",
+      "email": "cmatieu9@deliciousdays.com",
+      "macAddress": "30-8F-62-3F-C7-93"
+    },
+    {
+      "time": "2022-05-12T17:31:12Z",
+      "endpointName": "Arabela Abad",
+      "ip": "217.36.161.21",
+      "email": "aabada@histats.com",
+      "macAddress": "F9-CF-67-B8-1C-28"
+    },
+    {
+      "time": "2022-05-12T00:03:27Z",
+      "endpointName": "Ricky Brandon",
+      "ip": "30.128.48.128",
+      "email": "rbrandonb@posterous.com",
+      "macAddress": "95-42-0F-BC-EC-8E"
+    },
+    {
+      "time": "2022-05-12T19:58:05Z",
+      "endpointName": "Liza Airth",
+      "ip": "47.77.42.84",
+      "email": "lairthc@ameblo.jp",
+      "macAddress": "DD-1C-4D-CC-75-D9"
+    },
+    {
+      "time": "2022-05-17T12:24:12Z",
+      "endpointName": "Corabelle McCarl",
+      "ip": "3.240.72.213",
+      "email": "cmccarld@stumbleupon.com",
+      "macAddress": "05-E8-62-EB-F1-FB"
+    },
+    {
+      "time": "2022-05-12T11:21:24Z",
+      "endpointName": "Ezmeralda Holliar",
+      "ip": "148.139.137.179",
+      "email": "eholliare@topsy.com",
+      "macAddress": "D3-B2-6E-A5-BA-B9"
+    },
+    {
+      "time": "2022-05-16T19:05:47Z",
+      "endpointName": "Quent Dreng",
+      "ip": "254.148.73.163",
+      "email": "qdrengf@cnet.com",
+      "macAddress": "79-89-5A-4A-54-E7"
+    },
+    {
+      "time": "2022-05-17T19:03:47Z",
+      "endpointName": "Woodie Tilbrook",
+      "ip": "88.213.7.52",
+      "email": "wtilbrookg@mozilla.org",
+      "macAddress": "90-57-A7-04-06-68"
+    },
+    {
+      "time": "2022-05-15T07:58:59Z",
+      "endpointName": "Crista Peteri",
+      "ip": "240.3.16.146",
+      "email": "cpeterih@webmd.com",
+      "macAddress": "CD-DC-BC-89-E3-D0"
+    },
+    {
+      "time": "2022-05-17T02:29:36Z",
+      "endpointName": "Beverlee Britner",
+      "ip": "214.181.132.199",
+      "email": "bbritneri@walmart.com",
+      "macAddress": "1E-FB-80-68-9F-E0"
+    },
+    {
+      "time": "2022-05-16T03:24:49Z",
+      "endpointName": "Shoshana Kees",
+      "ip": "18.239.153.11",
+      "email": "skeesj@infoseek.co.jp",
+      "macAddress": "C0-98-6B-5D-46-F7"
+    }
+  ],
+  "NewCreateUsers": [
+    {
+      "time": "2022-05-17T02:07:22Z",
+      "endpointName": "Willy Fradgley",
+      "ip": "6.111.203.109",
+      "email": "wfradgley0@businesswire.com",
+      "macAddress": "E0-03-FB-0C-4B-B5"
+    },
+    {
+      "time": "2022-05-15T08:46:48Z",
+      "endpointName": "Waite Bryant",
+      "ip": "208.59.38.24",
+      "email": "wbryant1@goo.gl",
+      "macAddress": "48-CA-31-30-3C-43"
+    },
+    {
+      "time": "2022-05-17T02:40:08Z",
+      "endpointName": "Melisa D'Alesio",
+      "ip": "15.30.87.106",
+      "email": "mdalesio2@hc360.com",
+      "macAddress": "35-DA-52-E1-BD-BE"
+    },
+    {
+      "time": "2022-05-14T12:10:50Z",
+      "endpointName": "Derwin Rodda",
+      "ip": "31.63.100.132",
+      "email": "drodda3@clickbank.net",
+      "macAddress": "AB-9D-AD-62-58-1B"
+    },
+    {
+      "time": "2022-05-16T15:28:54Z",
+      "endpointName": "Sheila-kathryn Stennett",
+      "ip": "46.77.254.237",
+      "email": "sstennett4@sogou.com",
+      "macAddress": "C9-39-3E-9A-B2-B5"
+    },
+    {
+      "time": "2022-05-12T22:29:38Z",
+      "endpointName": "Lorena Tutchings",
+      "ip": "200.201.29.41",
+      "email": "ltutchings5@ox.ac.uk",
+      "macAddress": "14-62-F4-2C-F5-C1"
+    },
+    {
+      "time": "2022-05-13T21:59:45Z",
+      "endpointName": "Sheila Antrag",
+      "ip": "13.145.54.207",
+      "email": "santrag6@google.es",
+      "macAddress": "4D-BB-ED-BF-FF-EB"
+    },
+    {
+      "time": "2022-05-12T01:58:39Z",
+      "endpointName": "Pansie Rosenfield",
+      "ip": "186.132.136.129",
+      "email": "prosenfield7@theglobeandmail.com",
+      "macAddress": "FB-3A-D3-91-32-2A"
+    },
+    {
+      "time": "2022-05-13T06:59:08Z",
+      "endpointName": "Hillary Hoyle",
+      "ip": "88.230.110.30",
+      "email": "hhoyle8@gravatar.com",
+      "macAddress": "EA-43-80-6D-2B-AD"
+    },
+    {
+      "time": "2022-05-14T09:11:12Z",
+      "endpointName": "Wolfy Scrancher",
+      "ip": "6.83.140.110",
+      "email": "wscrancher9@csmonitor.com",
+      "macAddress": "C9-64-42-EB-A0-56"
+    },
+    {
+      "time": "2022-05-14T13:05:40Z",
+      "endpointName": "Jody Rookes",
+      "ip": "201.214.40.24",
+      "email": "jrookesa@smugmug.com",
+      "macAddress": "66-E9-EA-25-ED-DC"
+    },
+    {
+      "time": "2022-05-15T11:54:38Z",
+      "endpointName": "Blanca Casiero",
+      "ip": "68.161.29.170",
+      "email": "bcasierob@vistaprint.com",
+      "macAddress": "23-CA-09-5D-5B-A6"
+    },
+    {
+      "time": "2022-05-12T23:47:53Z",
+      "endpointName": "Ty Creese",
+      "ip": "236.186.4.50",
+      "email": "tcreesec@netlog.com",
+      "macAddress": "BA-0C-AF-B2-32-B5"
+    },
+    {
+      "time": "2022-05-12T13:08:39Z",
+      "endpointName": "Francene Onele",
+      "ip": "188.143.57.57",
+      "email": "foneled@irs.gov",
+      "macAddress": "23-7D-D0-F6-EB-11"
+    },
+    {
+      "time": "2022-05-15T18:11:41Z",
+      "endpointName": "Annecorinne Prevett",
+      "ip": "148.24.4.151",
+      "email": "aprevette@aboutads.info",
+      "macAddress": "41-9A-14-72-9E-34"
+    },
+    {
+      "time": "2022-05-13T17:50:06Z",
+      "endpointName": "Dalston Guilliatt",
+      "ip": "145.234.116.113",
+      "email": "dguilliattf@hhs.gov",
+      "macAddress": "65-23-10-2E-C3-90"
+    },
+    {
+      "time": "2022-05-15T15:38:40Z",
+      "endpointName": "Loni Dronsfield",
+      "ip": "185.245.238.102",
+      "email": "ldronsfieldg@free.fr",
+      "macAddress": "81-B2-0C-4C-91-9D"
+    },
+    {
+      "time": "2022-05-14T23:11:08Z",
+      "endpointName": "Dotty McLenahan",
+      "ip": "255.123.213.26",
+      "email": "dmclenahanh@bing.com",
+      "macAddress": "AF-13-E5-07-02-07"
+    },
+    {
+      "time": "2022-05-14T01:21:58Z",
+      "endpointName": "Thedric Summergill",
+      "ip": "212.83.222.118",
+      "email": "tsummergilli@examiner.com",
+      "macAddress": "35-38-C4-81-6F-23"
+    },
+    {
+      "time": "2022-05-12T17:01:34Z",
+      "endpointName": "Ethelbert Reisk",
+      "ip": "151.64.58.251",
+      "email": "ereiskj@house.gov",
+      "macAddress": "EC-4D-2C-EB-D0-10"
+    }
+  ],
+  "RemoveUsers": [
+    {
+      "time": "2022-05-12T06:51:41Z",
+      "endpointName": "Algernon Dick",
+      "ip": "200.168.91.66",
+      "email": "adick0@timesonline.co.uk",
+      "macAddress": "F1-65-A7-DB-7B-C3"
+    },
+    {
+      "time": "2022-05-16T16:27:08Z",
+      "endpointName": "Bruno Middlewick",
+      "ip": "121.140.155.184",
+      "email": "bmiddlewick1@economist.com",
+      "macAddress": "F7-1F-3E-A9-52-EB"
+    },
+    {
+      "time": "2022-05-14T18:19:22Z",
+      "endpointName": "Devon Gracey",
+      "ip": "255.85.130.215",
+      "email": "dgracey2@yolasite.com",
+      "macAddress": "76-F7-BB-83-B5-6D"
+    },
+    {
+      "time": "2022-05-13T15:48:29Z",
+      "endpointName": "Nikita Dishmon",
+      "ip": "17.219.213.225",
+      "email": "ndishmon3@tinypic.com",
+      "macAddress": "A8-8C-B1-0C-0E-9F"
+    },
+    {
+      "time": "2022-05-15T21:33:43Z",
+      "endpointName": "Verney Borrell",
+      "ip": "25.196.98.241",
+      "email": "vborrell4@nyu.edu",
+      "macAddress": "BB-35-6B-10-73-91"
+    }
+  ]
+}

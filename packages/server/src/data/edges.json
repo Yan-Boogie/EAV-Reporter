@@ -1,0 +1,4642 @@
+[
+  {
+    "from": 71,
+    "to": 0,
+    "id": 0,
+    "edgeType": {
+      "origEdge": ["DCSync"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 72,
+    "to": 0,
+    "id": 1,
+    "edgeType": {
+      "origEdge": ["DCSync"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 38,
+    "id": 2,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 55,
+    "id": 3,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 57,
+    "id": 4,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 50,
+    "id": 5,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 56,
+    "id": 6,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 52,
+    "id": 7,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 60,
+    "id": 8,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 59,
+    "id": 9,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 75,
+    "to": 36,
+    "id": 10,
+    "edgeType": {
+      "origEdge": ["Owns"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 36,
+    "id": 11,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 76,
+    "to": 77,
+    "id": 12,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 10,
+    "id": 13,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 78,
+    "to": 77,
+    "id": 14,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 79,
+    "to": 77,
+    "id": 15,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 80,
+    "to": 77,
+    "id": 16,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 81,
+    "to": 77,
+    "id": 17,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 82,
+    "to": 77,
+    "id": 18,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 83,
+    "to": 77,
+    "id": 19,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 84,
+    "to": 77,
+    "id": 20,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 85,
+    "to": 77,
+    "id": 21,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 86,
+    "to": 77,
+    "id": 22,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 87,
+    "to": 77,
+    "id": 23,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 88,
+    "to": 77,
+    "id": 24,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 89,
+    "to": 77,
+    "id": 25,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 90,
+    "to": 77,
+    "id": 26,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 91,
+    "to": 77,
+    "id": 27,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 92,
+    "to": 77,
+    "id": 28,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 93,
+    "to": 77,
+    "id": 29,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 94,
+    "to": 77,
+    "id": 30,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 95,
+    "to": 77,
+    "id": 31,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 96,
+    "to": 77,
+    "id": 32,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 97,
+    "to": 77,
+    "id": 33,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 98,
+    "to": 77,
+    "id": 34,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 99,
+    "to": 77,
+    "id": 35,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 9,
+    "id": 36,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 100,
+    "id": 37,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 100,
+    "to": 9,
+    "id": 38,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 12,
+    "id": 39,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 13,
+    "id": 40,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 11,
+    "id": 41,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 101,
+    "to": 102,
+    "id": 42,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 102,
+    "to": 0,
+    "id": 43,
+    "edgeType": {
+      "origEdge": ["GpLink"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 71,
+    "id": 44,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 72,
+    "id": 45,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 71,
+    "id": 46,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 72,
+    "id": 47,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 105,
+    "to": 106,
+    "id": 48,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 0,
+    "id": 49,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 107,
+    "to": 102,
+    "id": 50,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 108,
+    "to": 102,
+    "id": 51,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 109,
+    "to": 106,
+    "id": 52,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 110,
+    "id": 53,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 110,
+    "to": 65,
+    "id": 54,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 65,
+    "id": 55,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 65,
+    "id": 56,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 47,
+    "id": 57,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 48,
+    "id": 58,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 110,
+    "to": 35,
+    "id": 59,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 35,
+    "id": 60,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 35,
+    "id": 61,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 111,
+    "id": 62,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 66,
+    "id": 63,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 66,
+    "id": 64,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 66,
+    "id": 65,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 67,
+    "id": 66,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 67,
+    "id": 67,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 67,
+    "id": 68,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 53,
+    "id": 69,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 49,
+    "id": 70,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 34,
+    "id": 71,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 68,
+    "id": 72,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 73,
+    "id": 73,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 73,
+    "id": 74,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 38,
+    "id": 75,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 74,
+    "id": 76,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 55,
+    "id": 77,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 57,
+    "id": 78,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 50,
+    "id": 79,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 56,
+    "id": 80,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 52,
+    "id": 81,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 60,
+    "id": 82,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 51,
+    "id": 83,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 58,
+    "id": 84,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 54,
+    "id": 85,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 59,
+    "id": 86,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 61,
+    "id": 87,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 62,
+    "id": 88,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 64,
+    "id": 89,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 63,
+    "id": 90,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 39,
+    "id": 91,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 75,
+    "id": 92,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 36,
+    "id": 93,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 69,
+    "id": 94,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 69,
+    "id": 95,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 46,
+    "id": 96,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 110,
+    "to": 42,
+    "id": 97,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 42,
+    "id": 98,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 42,
+    "id": 99,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 110,
+    "to": 43,
+    "id": 100,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 43,
+    "id": 101,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 43,
+    "id": 102,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 44,
+    "id": 103,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 44,
+    "id": 104,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 44,
+    "id": 105,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 14,
+    "id": 106,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 14,
+    "id": 107,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 4,
+    "id": 108,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 7,
+    "id": 109,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 8,
+    "id": 110,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 6,
+    "id": 111,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 1,
+    "id": 112,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 2,
+    "id": 113,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 3,
+    "id": 114,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 70,
+    "id": 115,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 70,
+    "id": 116,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 70,
+    "id": 117,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 45,
+    "id": 118,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 112,
+    "to": 113,
+    "id": 119,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 113,
+    "to": 77,
+    "id": 120,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 114,
+    "to": 113,
+    "id": 121,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 76,
+    "to": 115,
+    "id": 122,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 115,
+    "to": 77,
+    "id": 123,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 78,
+    "to": 115,
+    "id": 124,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 79,
+    "to": 115,
+    "id": 125,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 80,
+    "to": 115,
+    "id": 126,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 116,
+    "to": 113,
+    "id": 127,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 81,
+    "to": 115,
+    "id": 128,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 82,
+    "to": 115,
+    "id": 129,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 83,
+    "to": 115,
+    "id": 130,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 84,
+    "to": 115,
+    "id": 131,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 85,
+    "to": 115,
+    "id": 132,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 86,
+    "to": 115,
+    "id": 133,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 83,
+    "id": 134,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 85,
+    "id": 135,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 86,
+    "id": 136,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 88,
+    "id": 137,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 89,
+    "id": 138,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 91,
+    "id": 139,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 92,
+    "id": 140,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 93,
+    "id": 141,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 94,
+    "id": 142,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 95,
+    "id": 143,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 96,
+    "id": 144,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 87,
+    "to": 115,
+    "id": 145,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 88,
+    "to": 115,
+    "id": 146,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 89,
+    "to": 115,
+    "id": 147,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 90,
+    "to": 115,
+    "id": 148,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 77,
+    "id": 149,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 91,
+    "to": 115,
+    "id": 150,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 117,
+    "to": 113,
+    "id": 151,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 92,
+    "to": 115,
+    "id": 152,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 93,
+    "to": 115,
+    "id": 153,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 94,
+    "to": 115,
+    "id": 154,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 95,
+    "to": 115,
+    "id": 155,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 96,
+    "to": 115,
+    "id": 156,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 97,
+    "to": 115,
+    "id": 157,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 98,
+    "to": 115,
+    "id": 158,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 99,
+    "to": 115,
+    "id": 159,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 118,
+    "to": 113,
+    "id": 160,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 108,
+    "to": 113,
+    "id": 161,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 119,
+    "to": 113,
+    "id": 162,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 120,
+    "to": 113,
+    "id": 163,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 71,
+    "id": 164,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 72,
+    "id": 165,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 104,
+    "id": 166,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 113,
+    "to": 121,
+    "id": 167,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 0,
+    "id": 168,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 105,
+    "to": 122,
+    "id": 169,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 122,
+    "to": 106,
+    "id": 170,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 121,
+    "id": 171,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 71,
+    "id": 172,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 72,
+    "id": 173,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 123,
+    "to": 122,
+    "id": 174,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 120,
+    "to": 124,
+    "id": 175,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 124,
+    "to": 71,
+    "id": 176,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 124,
+    "to": 72,
+    "id": 177,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 109,
+    "to": 122,
+    "id": 178,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 125,
+    "id": 179,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 125,
+    "to": 110,
+    "id": 180,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 110,
+    "id": 181,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 47,
+    "id": 182,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 126,
+    "id": 183,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 47,
+    "id": 184,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 48,
+    "id": 185,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 48,
+    "id": 186,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 125,
+    "to": 111,
+    "id": 187,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 111,
+    "id": 188,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 53,
+    "id": 189,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 53,
+    "id": 190,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 49,
+    "id": 191,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 49,
+    "id": 192,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 73,
+    "id": 193,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 38,
+    "id": 194,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 127,
+    "id": 195,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 127,
+    "to": 38,
+    "id": 196,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 73,
+    "id": 197,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 124,
+    "to": 73,
+    "id": 198,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 55,
+    "id": 199,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 55,
+    "id": 200,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 74,
+    "id": 201,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 124,
+    "to": 74,
+    "id": 202,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 57,
+    "id": 203,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 57,
+    "id": 204,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 50,
+    "id": 205,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 50,
+    "id": 206,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 56,
+    "id": 207,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 56,
+    "id": 208,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 52,
+    "id": 209,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 52,
+    "id": 210,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 60,
+    "id": 211,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 60,
+    "id": 212,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 51,
+    "id": 213,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 51,
+    "id": 214,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 58,
+    "id": 215,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 58,
+    "id": 216,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 54,
+    "id": 217,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 54,
+    "id": 218,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 59,
+    "id": 219,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 59,
+    "id": 220,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 61,
+    "id": 221,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 61,
+    "id": 222,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 62,
+    "id": 223,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 62,
+    "id": 224,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 64,
+    "id": 225,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 64,
+    "id": 226,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 63,
+    "id": 227,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 63,
+    "id": 228,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 128,
+    "id": 229,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 128,
+    "to": 129,
+    "id": 230,
+    "edgeType": {
+      "origEdge": ["AdminTo"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 129,
+    "to": 39,
+    "id": 231,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 39,
+    "id": 232,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 129,
+    "id": 233,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 36,
+    "id": 234,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 130,
+    "id": 235,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 130,
+    "to": 36,
+    "id": 236,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 75,
+    "id": 237,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 124,
+    "to": 75,
+    "id": 238,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 131,
+    "id": 239,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 131,
+    "to": 69,
+    "id": 240,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 46,
+    "id": 241,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 46,
+    "id": 242,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 131,
+    "to": 14,
+    "id": 243,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 132,
+    "id": 244,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 132,
+    "to": 4,
+    "id": 245,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 132,
+    "to": 7,
+    "id": 246,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 133,
+    "id": 247,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 133,
+    "to": 5,
+    "id": 248,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 132,
+    "to": 8,
+    "id": 249,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 132,
+    "to": 6,
+    "id": 250,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 1,
+    "id": 251,
+    "edgeType": {
+      "origEdge": ["AddMember"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 131,
+    "to": 1,
+    "id": 252,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 131,
+    "to": 2,
+    "id": 253,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 3,
+    "id": 254,
+    "edgeType": {
+      "origEdge": ["AddMember"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 131,
+    "to": 3,
+    "id": 255,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 45,
+    "id": 256,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 126,
+    "to": 45,
+    "id": 257,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 134,
+    "id": 258,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 134,
+    "to": 135,
+    "id": 259,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 135,
+    "to": 40,
+    "id": 260,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 75,
+    "to": 134,
+    "id": 261,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 136,
+    "to": 134,
+    "id": 262,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 137,
+    "to": 134,
+    "id": 263,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 138,
+    "to": 134,
+    "id": 264,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 139,
+    "to": 134,
+    "id": 265,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 140,
+    "to": 134,
+    "id": 266,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 141,
+    "to": 134,
+    "id": 267,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 142,
+    "to": 134,
+    "id": 268,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 143,
+    "to": 134,
+    "id": 269,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 135,
+    "id": 270,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 144,
+    "to": 134,
+    "id": 271,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 145,
+    "to": 134,
+    "id": 272,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 146,
+    "to": 134,
+    "id": 273,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 147,
+    "to": 134,
+    "id": 274,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 148,
+    "to": 134,
+    "id": 275,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 149,
+    "to": 134,
+    "id": 276,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 150,
+    "to": 134,
+    "id": 277,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 151,
+    "to": 134,
+    "id": 278,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 152,
+    "to": 134,
+    "id": 279,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 153,
+    "to": 134,
+    "id": 280,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 154,
+    "to": 134,
+    "id": 281,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 155,
+    "to": 134,
+    "id": 282,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 156,
+    "to": 134,
+    "id": 283,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 157,
+    "to": 134,
+    "id": 284,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 158,
+    "to": 134,
+    "id": 285,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 159,
+    "to": 134,
+    "id": 286,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 160,
+    "to": 134,
+    "id": 287,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 161,
+    "to": 134,
+    "id": 288,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 162,
+    "to": 134,
+    "id": 289,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 163,
+    "to": 134,
+    "id": 290,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 164,
+    "to": 134,
+    "id": 291,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 165,
+    "to": 134,
+    "id": 292,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 166,
+    "to": 134,
+    "id": 293,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 167,
+    "to": 134,
+    "id": 294,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 168,
+    "to": 134,
+    "id": 295,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 169,
+    "to": 134,
+    "id": 296,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 170,
+    "to": 134,
+    "id": 297,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 74,
+    "to": 134,
+    "id": 298,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 119,
+    "to": 134,
+    "id": 299,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 135,
+    "to": 41,
+    "id": 300,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 119,
+    "id": 301,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 113,
+    "to": 171,
+    "id": 302,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 171,
+    "to": 77,
+    "id": 303,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 113,
+    "to": 115,
+    "id": 304,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 77,
+    "id": 305,
+    "edgeType": {
+      "origEdge": ["AddMember"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 171,
+    "id": 306,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 76,
+    "id": 307,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 78,
+    "id": 308,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 79,
+    "id": 309,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 80,
+    "id": 310,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 81,
+    "id": 311,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 82,
+    "id": 312,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 83,
+    "id": 313,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 84,
+    "id": 314,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 85,
+    "id": 315,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 86,
+    "id": 316,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 87,
+    "id": 317,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 88,
+    "id": 318,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 89,
+    "id": 319,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 90,
+    "id": 320,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 91,
+    "id": 321,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 92,
+    "id": 322,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 93,
+    "id": 323,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 110,
+    "to": 108,
+    "id": 324,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 106,
+    "id": 325,
+    "edgeType": {
+      "origEdge": ["AddMember"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 77,
+    "to": 108,
+    "id": 326,
+    "edgeType": {
+      "origEdge": ["GenericWrite"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 73,
+    "to": 123,
+    "id": 327,
+    "edgeType": {
+      "origEdge": ["ReadLAPSPassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 108,
+    "id": 328,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 124,
+    "to": 105,
+    "id": 329,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 110,
+    "id": 330,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 125,
+    "id": 331,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 103,
+    "id": 332,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 126,
+    "id": 333,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 111,
+    "id": 334,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 111,
+    "to": 104,
+    "id": 335,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 128,
+    "to": 172,
+    "id": 336,
+    "edgeType": {
+      "origEdge": ["AdminTo"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 172,
+    "to": 127,
+    "id": 337,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 127,
+    "id": 338,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 73,
+    "id": 339,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 172,
+    "id": 340,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 124,
+    "id": 341,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 104,
+    "id": 342,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 124,
+    "to": 104,
+    "id": 343,
+    "edgeType": {
+      "origEdge": ["WriteSPN"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 173,
+    "id": 344,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 173,
+    "to": 128,
+    "id": 345,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 129,
+    "id": 346,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 174,
+    "id": 347,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 174,
+    "to": 129,
+    "id": 348,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 128,
+    "id": 349,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 172,
+    "to": 130,
+    "id": 350,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 130,
+    "id": 351,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 75,
+    "id": 352,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 175,
+    "id": 353,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 175,
+    "to": 75,
+    "id": 354,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 131,
+    "id": 355,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 132,
+    "id": 356,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 133,
+    "id": 357,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 176,
+    "id": 358,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 176,
+    "to": 133,
+    "id": 359,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 177,
+    "id": 360,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 177,
+    "to": 134,
+    "id": 361,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 134,
+    "to": 178,
+    "id": 362,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 178,
+    "to": 135,
+    "id": 363,
+    "edgeType": {
+      "origEdge": ["Contains"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 136,
+    "id": 364,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 138,
+    "id": 365,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 140,
+    "id": 366,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 141,
+    "id": 367,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 142,
+    "id": 368,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 144,
+    "id": 369,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 148,
+    "id": 370,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 154,
+    "id": 371,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 158,
+    "id": 372,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 161,
+    "id": 373,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 162,
+    "id": 374,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 164,
+    "id": 375,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 168,
+    "id": 376,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 103,
+    "to": 170,
+    "id": 377,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 121,
+    "to": 135,
+    "id": 378,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 179,
+    "to": 180,
+    "id": 379,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 180,
+    "to": 134,
+    "id": 380,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 181,
+    "to": 137,
+    "id": 381,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 181,
+    "to": 169,
+    "id": 382,
+    "edgeType": {
+      "origEdge": ["GenericAll"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 182,
+    "to": 137,
+    "id": 383,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 182,
+    "to": 169,
+    "id": 384,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 183,
+    "to": 184,
+    "id": 385,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 184,
+    "to": 134,
+    "id": 386,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 185,
+    "to": 180,
+    "id": 387,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 137,
+    "id": 388,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 140,
+    "id": 389,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 141,
+    "id": 390,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 142,
+    "id": 391,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 143,
+    "id": 392,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 144,
+    "id": 393,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 145,
+    "id": 394,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 146,
+    "id": 395,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 147,
+    "id": 396,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 148,
+    "id": 397,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 149,
+    "id": 398,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 151,
+    "id": 399,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 153,
+    "id": 400,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 155,
+    "id": 401,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 156,
+    "id": 402,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 157,
+    "id": 403,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 159,
+    "id": 404,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 160,
+    "id": 405,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 161,
+    "id": 406,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 162,
+    "id": 407,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 163,
+    "id": 408,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 164,
+    "id": 409,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 165,
+    "id": 410,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 166,
+    "id": 411,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 167,
+    "id": 412,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 168,
+    "id": 413,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 104,
+    "to": 169,
+    "id": 414,
+    "edgeType": {
+      "origEdge": ["ForceChangePassword"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 186,
+    "to": 180,
+    "id": 415,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 187,
+    "to": 180,
+    "id": 416,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 188,
+    "to": 180,
+    "id": 417,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 178,
+    "id": 418,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 134,
+    "id": 419,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 106,
+    "to": 189,
+    "id": 420,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 189,
+    "to": 134,
+    "id": 421,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 190,
+    "to": 180,
+    "id": 422,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 191,
+    "to": 180,
+    "id": 423,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 192,
+    "to": 180,
+    "id": 424,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 193,
+    "to": 180,
+    "id": 425,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 194,
+    "to": 180,
+    "id": 426,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 195,
+    "to": 180,
+    "id": 427,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 196,
+    "to": 180,
+    "id": 428,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 197,
+    "to": 180,
+    "id": 429,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 198,
+    "to": 180,
+    "id": 430,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 199,
+    "to": 184,
+    "id": 431,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 200,
+    "to": 180,
+    "id": 432,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 201,
+    "to": 180,
+    "id": 433,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 202,
+    "to": 180,
+    "id": 434,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 203,
+    "to": 184,
+    "id": 435,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 204,
+    "to": 180,
+    "id": 436,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 205,
+    "to": 180,
+    "id": 437,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 206,
+    "to": 184,
+    "id": 438,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 207,
+    "to": 180,
+    "id": 439,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 208,
+    "to": 180,
+    "id": 440,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 209,
+    "to": 180,
+    "id": 441,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 210,
+    "to": 180,
+    "id": 442,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 211,
+    "to": 180,
+    "id": 443,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 212,
+    "to": 180,
+    "id": 444,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 213,
+    "to": 180,
+    "id": 445,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 214,
+    "to": 180,
+    "id": 446,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 215,
+    "to": 180,
+    "id": 447,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 216,
+    "to": 180,
+    "id": 448,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 217,
+    "to": 180,
+    "id": 449,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 218,
+    "to": 180,
+    "id": 450,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 219,
+    "to": 180,
+    "id": 451,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 220,
+    "to": 180,
+    "id": 452,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 221,
+    "to": 180,
+    "id": 453,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 222,
+    "to": 180,
+    "id": 454,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 223,
+    "to": 180,
+    "id": 455,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 224,
+    "to": 180,
+    "id": 456,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 225,
+    "to": 180,
+    "id": 457,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 226,
+    "to": 184,
+    "id": 458,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 227,
+    "to": 180,
+    "id": 459,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 228,
+    "to": 180,
+    "id": 460,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 229,
+    "to": 180,
+    "id": 461,
+    "edgeType": {
+      "origEdge": ["MemberOf"],
+      "abstractEdge": ["Edge3"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 230,
+    "to": 231,
+    "id": 462,
+    "edgeType": {
+      "origEdge": ["WriteDacl"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  },
+  {
+    "from": 231,
+    "to": 0,
+    "id": 463,
+    "edgeType": {
+      "origEdge": ["GpLink"],
+      "abstractEdge": ["Edge1"],
+      "prob": [1.0]
+    }
+  }
+]
