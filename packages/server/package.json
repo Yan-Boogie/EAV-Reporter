@@ -1,0 +1,53 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "EAV Reporter server workspace",
+  "keywords": [],
+  "author": "Ian Lai <ian24257587@gmail.com>",
+  "license": "ISC",
+  "main": "src/server.js",
+  "directories": {
+    "src": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yan-Boogie/EAV-Reporter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Yan-Boogie/EAV-Reporter/issues"
+  },
+  "homepage": "https://github.com/Yan-Boogie/EAV-Reporter#readme",
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "apollo-server-koa": "^2.10.1",
+    "class-validator": "^0.12.0",
+    "graphql": "^15.3.0",
+    "ipfs": "^0.55.4",
+    "kcors": "^2.2.2",
+    "koa": "^2.11.0",
+    "orbit-db": "^0.26.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.7.0",
+    "ts-node-dev": "^1.1.8",
+    "type-graphql": "^1.1.1",
+    "uuid": "^7.0.2"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/kcors": "^2.2.3",
+    "@types/node": "^14.0.27",
+    "@types/orbit-db": "https://github.com/orbitdb/orbit-db-types.git",
+    "@types/uuid": "^7.0.2",
+    "node-gyp": "^9.0.0",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.9.7"
+  }
+}

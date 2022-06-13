@@ -1,0 +1,50 @@
+{
+  "name": "ui-modules",
+  "version": "1.0.0",
+  "description": "EAV-Reporter ui modules for client workspace",
+  "keywords": [],
+  "author": "Ian Lai <ian24257587@gmail.com>",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "types": "dist/index.d.ts",
+  "umd": "dist/skyeye-highlight-editor.js",
+  "umdMin": "dist/skyeye-highlight-editor.min.js",
+  "sideEffects": false,
+  "license": "MIT",
+  "directories": {
+    "src": "src",
+    "test": "__tests__",
+    "dist": "dist"
+  },
+  "files": [
+    "dist/"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yan-Boogie/EAV-Reporter.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^12.1.2",
+    "@testing-library/react-hooks": "^8.0.0",
+    "@testing-library/user-event": "^14.2.0",
+    "@types/jest": "^27.5.1",
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.4",
+    "jest": "^28.1.0",
+    "jest-environment-jsdom": "^28.1.0",
+    "ts-jest": "^28.0.2"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Yan-Boogie/EAV-Reporter/issues"
+  },
+  "homepage": "https://github.com/Yan-Boogie/EAV-Reporter#readme"
+}
