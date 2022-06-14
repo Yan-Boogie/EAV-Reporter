@@ -22,6 +22,7 @@
   - [ ] Build components with storybook
 - [ ] FE features
   - [ ] localStorage record
+  - [ ] form controll
   - [ ] build pages with UIModules including RWD
 
 #### Optional
