@@ -14,10 +14,7 @@
     "esModuleInterop": true,
     "strictPropertyInitialization": false,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "paths": {
-      "@@common/*": ["../common/*"]
-    }
+    "emitDecoratorMetadata": true
   },
   "exclude": ["node_modules"],
   "include": ["./src/**/*"]

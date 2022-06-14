@@ -2,11 +2,11 @@ esm/
 coverage/
 *.md
 .github/
-.next/
 build/
 dist/
 lib/
 node_modules/
 site/out/
 tmp/
-next.config.js
+webpack.config.js
+webpack.config.*.js
