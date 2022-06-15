@@ -1,5 +1,4 @@
 import React from 'react';
-import { hot } from 'react-hot-loader/root';
 import { BrowserRouter } from 'react-router-dom';
 import { ApolloProvider, ApolloClient, NormalizedCacheObject } from '@apollo/client';
 import AppLayout from './components/app-layout';
@@ -25,4 +24,4 @@ function App(props: AppProps) {
   );
 }
 
-export default hot(App);
+export default App;

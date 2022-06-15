@@ -1,7 +1,7 @@
 const path = require('path');
 const ip = require('ip');
 const webpack = require('webpack');
-const webpackMerge = require('webpack-merge');
+const { merge } = require('webpack-merge');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const HTMLWebpackPlugin = require('html-webpack-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
@@ -22,7 +22,6 @@ const SRC_PATH = path.resolve(__dirname, 'src');
 const PUBLIC_PATH = path.resolve(SRC_PATH, 'public');
 
 const isProduction = NODE_ENV === 'production';
-const merge = webpackMerge.smartStrategy({ entry: 'prepend' });
 const styleLoader = isProduction ? MiniCssExtractPlugin.loader : 'style-loader';
 
 const commonConfig = {
@@ -39,11 +38,7 @@ const commonConfig = {
     rules: [
       {
         test: /\.tsx?$/,
-        use: [
-          {
-            loader: 'babel-loader',
-          },
-        ],
+        use: 'babel-loader',
         include: [SRC_PATH],
         exclude: [NODE_MODULES_PATH],
       },
@@ -51,7 +46,7 @@ const commonConfig = {
         test: /\.css$/i,
         use: [styleLoader, 'css-loader'],
         include: [NODE_MODULES_PATH],
-        exclude: [PACKAGES_PATH, SRC_PATH],
+        exclude: [SRC_PATH],
       },
       {
         test: /\.(jpe?g|png|gif|svg|mp4|mjpeg|zip)$/i,
@@ -103,11 +98,10 @@ const commonConfig = {
         removeScriptTypeAttributes: true,
         removeStyleLinkTypeAttributes: true,
       },
-      chunksSortMode: 'dependency',
     }),
     new MiniCssExtractPlugin({
-      filename: DEV_MODE ? '[name].css' : '[name].[contenthash].css',
-      chunkFilename: DEV_MODE ? '[id].css' : '[id].[contenthash].css',
+      filename: '[name].[contenthash].css',
+      chunkFilename: '[id].[contenthash].css',
     }),
     new OptimizeCSSAssetsPlugin({}),
     new BundleAnalyzerPlugin({
@@ -118,23 +112,8 @@ const commonConfig = {
   ],
   optimization: {
     noEmitOnErrors: true,
-    minimizer: [
-      new TerserPlugin({
-        terserOptions: {
-          compress: {
-            warnings: false,
-            comparisons: false,
-          },
-          mangle: true,
-          output: {
-            comments: false,
-            ascii_only: true,
-          },
-        },
-        parallel: true,
-        cache: true,
-      }),
-    ],
+    minimize: true,
+    minimizer: [new TerserPlugin()],
     splitChunks: {
       cacheGroups: {
         vendor: {

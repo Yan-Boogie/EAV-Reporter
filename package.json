@@ -11,9 +11,13 @@
   "scripts": {
     "build:rollup": "rollup --config ./rollup.config.js",
     "build:rollup:watch": "yarn build:rollup --watch",
+    "client:start": "yarn workspace client start",
+    "client:build": "yarn workspace client build",
+    "client:analyze-dev": "yarn workspace client analyze-dev",
+    "client:analyze": "yarn workspace client analyze",
     "commit": "git-cz",
     "lint:ts": "eslint . --config .eslintrc --ext .js,.ts",
-    "server": "yarn workspace server start"
+    "server:start": "yarn workspace server start"
   },
   "devDependencies": {
     "@commitlint/cli": "^11.0.0",

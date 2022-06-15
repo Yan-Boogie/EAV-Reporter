@@ -5,8 +5,12 @@
     "module": "esnext",
     "jsx": "react",
     "lib": ["dom", "dom.iterable", "es5", "es2015", "es2016", "es2017", "esnext"],
-    "baseUrl": "./",
-    "types": ["webpack-env"]
+    "baseUrl": ".",
+    "types": ["webpack-env"],
+    "paths": {
+      "@@assets/*": ["assets/*"],
+      "@@src/*": ["src/*"]
+    }
   },
   "include": ["./src"]
 }
