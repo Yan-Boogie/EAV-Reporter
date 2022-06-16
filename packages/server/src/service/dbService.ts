@@ -1,7 +1,10 @@
 import * as IPFSGateway from 'ipfs';
 import type { IPFS } from 'ipfs';
-import { OrbitDB } from 'orbit-db';
+import type { OrbitDB as IOrbitDB } from 'orbit-db';
 import KeyValueStore from 'orbit-db-kvstore';
+
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const OrbitDB = require('orbit-db');
 
 /**
  * @todos
@@ -12,7 +15,7 @@ import KeyValueStore from 'orbit-db-kvstore';
 class DbService {
   private ipfs: IPFS;
 
-  private db: OrbitDB;
+  private db: IOrbitDB;
 
   private store: KeyValueStore<any>;
 

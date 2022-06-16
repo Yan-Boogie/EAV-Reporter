@@ -2,6 +2,7 @@ import Koa from 'koa';
 import kcors from 'kcors';
 import http from 'http';
 import { ApolloServer } from 'apollo-server-koa';
+import context from './helpers/context';
 import buildSchema from './schema';
 import { PORT } from './constants/port';
 import { NODE_ENV } from './constants/nodeEnv';
@@ -16,12 +17,13 @@ const main = async () => {
   const schema = await buildSchema();
   const server = new ApolloServer({
     schema,
+    context,
     playground: NODE_ENV === 'development',
   });
 
   server.applyMiddleware({ app });
 
-  /** Apply middware here */
+  /** Apply SSR middware here */
   // app.use();
 
   const httpServer = http.createServer(app.callback());
@@ -29,7 +31,7 @@ const main = async () => {
   httpServer.listen(PORT, async () => {
     await dbService.init();
 
-    console.log(`MFSC Server listen on port: ${PORT}`);
+    console.log(`EAV Server listen on port: ${PORT}`);
   });
 };
 
