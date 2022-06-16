@@ -20,7 +20,7 @@ export enum ReportType {
 
 export type ReportSection = {
   sectionName: string;
-  renderTypes: RenderTypes[];
+  renderTypes: RenderTypes;
 };
 
 export type ConfigPayload = {

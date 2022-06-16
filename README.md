@@ -15,8 +15,10 @@
     - [x] User-Flow & File structure: pages & routes & navigations feat. AppLayout
       - [x] SPA AppLayout.tsx (Component interface only)
 - [ ] BE features
-  - [ ] Report context setup
-  - [ ] Schemas and Resolvers design
+  - [x] Report context setup -> localStorage save config id
+  - [x] Schemas and Resolvers design
+  - [x] Build DBService feature: config access
+  - [ ] RenderSection resolver and schemas
   - [ ] React18 SSR streaming HTML endpoint middleware & HTML design
 - [ ] UIModules features
   - [ ] Build components with storybook

@@ -27,6 +27,7 @@ type Mutation {
 }
 
 type Query {
+  reportConfig(id: String!): Config!
   reportConfigs(limit: Float!, offset: Float!): [Config!]!
 }
 
@@ -40,12 +41,12 @@ enum RenderTypes {
 }
 
 type ReportSection {
-  renderTypes: [RenderTypes!]!
+  renderTypes: RenderTypes!
   sectionName: String!
 }
 
 input ReportSectionInput {
-  renderTypes: [RenderTypes!]!
+  renderTypes: RenderTypes!
   sectionName: String!
 }
 

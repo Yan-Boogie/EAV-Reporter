@@ -6,8 +6,8 @@ class ReportSection {
   @Field(() => String)
   sectionName: string;
 
-  @Field(() => [RenderTypes])
-  renderTypes: RenderTypes[];
+  @Field(() => RenderTypes)
+  renderTypes: RenderTypes;
 }
 
 export default ReportSection;
