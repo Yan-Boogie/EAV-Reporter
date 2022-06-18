@@ -5,7 +5,14 @@ module.exports = (api) => {
     presets: [
       '@babel/preset-env',
       '@babel/typescript',
-      ['@babel/preset-react', { development: !api.env('production'), runtime: 'automatic' }],
+      [
+        '@babel/preset-react',
+        {
+          development: !api.env('production'),
+          runtime: 'automatic',
+          importSource: '@emotion/react',
+        },
+      ],
     ],
     plugins: [
       '@babel/plugin-proposal-class-properties',

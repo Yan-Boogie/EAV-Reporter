@@ -27,11 +27,6 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "devDependencies": {
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
-    "@mui/icons-material": "^5",
-    "@mui/lab": "^5.0.0-alpha.86",
-    "@mui/material": "^5",
     "@testing-library/dom": "^8.13.0",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^12.1.2",
@@ -42,24 +37,20 @@
     "@types/react-dom": "^18.0.4",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
-    "react": "^18",
-    "react-dom": "^18",
     "ts-jest": "^28.0.2"
   },
-  "peerDependencies": {
-    "@emotion/react": "^11",
-    "@emotion/styled": "^11",
-    "@mui/icons-material": "^5",
-    "@mui/material": "^5",
-    "@mui/lab": "^5",
-    "react": "^18",
-    "react-dom": "^18"
+  "dependencies": {
+    "@emotion/react": "^11.8.2",
+    "@emotion/styled": "^11.8.1",
+    "@fontsource/roboto": "^4.5.7",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.86",
+    "@mui/material": "^5.8.4",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
   },
   "bugs": {
     "url": "https://github.com/Yan-Boogie/EAV-Reporter/issues"
   },
-  "homepage": "https://github.com/Yan-Boogie/EAV-Reporter#readme",
-  "dependencies": {
-    "@fontsource/roboto": "^4.5.7"
-  }
+  "homepage": "https://github.com/Yan-Boogie/EAV-Reporter#readme"
 }

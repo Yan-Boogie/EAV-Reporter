@@ -32,6 +32,11 @@
     "@apollo/client": "^3.5.10",
     "@emotion/react": "^11.8.2",
     "@emotion/styled": "^11.8.1",
+    "@fontsource/roboto": "^4.5.7",
+    "@mui/base": "^5.0.0-alpha.85",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/lab": "^5.0.0-alpha.86",
+    "@mui/material": "^5.8.4",
     "graphql": "^16.5.0",
     "graphql-tag": "^2.12.6",
     "history": "^5.3.0",
@@ -39,7 +44,8 @@
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-router": "^5.2.0",
-    "react-router-dom": "^5.2.0"
+    "react-router-dom": "^5.2.0",
+    "ui-modules": "^1.0.0"
   },
   "devDependencies": {
     "@babel/cli": "^7.8.4",
@@ -62,6 +68,7 @@
     "ip": "^1.1.5",
     "mini-css-extract-plugin": "^2.6.0",
     "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "postcss-loader": "^7.0.0",
     "react-refresh": "^0.13.0",
     "style-loader": "^1.2.1",
     "terser-webpack-plugin": "^5.3.3",

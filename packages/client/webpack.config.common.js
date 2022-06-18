@@ -45,8 +45,6 @@ const commonConfig = {
       {
         test: /\.css$/i,
         use: [styleLoader, 'css-loader'],
-        include: [NODE_MODULES_PATH],
-        exclude: [SRC_PATH],
       },
       {
         test: /\.(jpe?g|png|gif|svg|mp4|mjpeg|zip)$/i,
@@ -73,7 +71,6 @@ const commonConfig = {
             },
           },
         ],
-        include: [ASSETS_PATH],
       },
     ],
   },

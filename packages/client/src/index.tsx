@@ -1,7 +1,7 @@
-import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { ApolloClient, InMemoryCache } from '@apollo/client';
 import App from './app';
+import './public/main.css';
 
 const client = new ApolloClient({
   uri: GRAPHQL_HOST,

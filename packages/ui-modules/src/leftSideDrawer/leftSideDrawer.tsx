@@ -2,6 +2,7 @@ import React from 'react';
 import MuiDrawer, { DrawerProps as MuiDrawerProps } from '@mui/material/Drawer';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
+import ListItemIcon from '@mui/material/ListItemIcon';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import { Divider } from '../divider/divider';
@@ -9,44 +10,37 @@ import { Box } from '../layout/box';
 
 export type LinkListItem = {
   label: string;
-  to: string;
+  component: React.ElementType<any>;
+  itemProps: any;
+  icon: React.ElementType;
 };
 
 export interface LeftSideDrawerProps extends Omit<MuiDrawerProps, 'anchor' | 'children'> {
   linkList: LinkListItem[];
-  linkComponent: React.ElementType<any>;
 }
 
 export function LeftSideDrawer(props: LeftSideDrawerProps) {
-  const {
-    linkList, onClose, linkComponent: LinkComponent, ...rest
-  } = props;
-
-  const toggleDrawer = (event: React.KeyboardEvent | React.MouseEvent) => {
-    if (
-      event.type === 'keydown' &&
-      ((event as React.KeyboardEvent).key === 'Tab' || (event as React.KeyboardEvent).key === 'Shift')
-    ) {
-      return;
-    }
-
-    onClose(event, 'backdropClick');
-  };
+  const { linkList, onClose, ...rest } = props;
 
   return (
-    <MuiDrawer {...rest}>
-      <Box role="presentation" onClick={toggleDrawer} onKeyDown={toggleDrawer}>
+    <MuiDrawer onClose={onClose} anchor="left" {...rest}>
+      <Box role="presentation">
         <List>
-          {linkList.map((el, idx) => (
+          {linkList.map(({
+            label, component: Component, itemProps, icon: Icon,
+          }, idx) => (
             <>
-              <LinkComponent key={el.label} to={el.to}>
+              <Component key={label} {...itemProps}>
                 <ListItem disablePadding>
                   <ListItemButton>
-                    <ListItemText primary={el.label} />
+                    <ListItemIcon>
+                      <Icon />
+                    </ListItemIcon>
+                    <ListItemText primary={label} />
                   </ListItemButton>
                 </ListItem>
-              </LinkComponent>
-              {!(idx === linkList.length - 1) && <Divider />}
+              </Component>
+              {!(idx === linkList.length - 1) && <Divider key={`${label}-divider`} />}
             </>
           ))}
         </List>
