@@ -6,10 +6,12 @@
 type Config {
   data: [ConfigPayload!]!
   id: ID!
+  reportName: String!
 }
 
 input ConfigInput {
   data: [ConfigPayloadInput!]!
+  reportName: String!
 }
 
 type ConfigPayload {

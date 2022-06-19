@@ -3,6 +3,9 @@ import ConfigPayloadInput from './configPayloadInput';
 
 @InputType()
 class ConfigInput {
+  @Field(() => String)
+  reportName: string;
+
   @Field(() => [ConfigPayloadInput])
   data: ConfigPayloadInput[];
 }

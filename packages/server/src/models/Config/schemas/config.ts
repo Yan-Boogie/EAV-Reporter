@@ -6,6 +6,9 @@ class Config {
   @Field(() => ID)
   id: string;
 
+  @Field(() => String)
+  reportName: string;
+
   @Field(() => [ConfigPayload])
   data: ConfigPayload[];
 }
