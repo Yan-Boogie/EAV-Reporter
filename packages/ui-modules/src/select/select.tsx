@@ -1,6 +1,6 @@
 import React from 'react';
 import InputLabel from '@mui/material/InputLabel';
-import MuiSelect, { SelectProps as MuiSelectProps } from '@mui/material/Select';
+import MuiSelect, { SelectProps as MuiSelectProps, SelectChangeEvent } from '@mui/material/Select';
 import { FormControl, FormControlProps } from '../formControl/formControl';
 import { MenuItem, MenuItemProps } from '../menuItem';
 
@@ -8,6 +8,8 @@ export type SelectItem<T> = {
   value: T;
   label: string;
 };
+
+export { SelectChangeEvent };
 
 export interface SelectProps<T extends number | string>
   extends Omit<MuiSelectProps<T>, 'autoWitdh' | 'defaultOpen' | 'native'> {
@@ -29,7 +31,7 @@ export function Select<T extends number | string>(props: SelectProps<T>) {
   }
 
   return (
-    <FormControl>
+    <FormControl {...formControlProps}>
       <InputLabel id={labelId}>{selectLabel}</InputLabel>
       <MuiSelect labelId={labelId} autoWidth={false} defaultOpen={false} native={false} {...rest}>
         {selectItems.map((el) => (

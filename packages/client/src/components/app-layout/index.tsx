@@ -2,7 +2,9 @@ import { ReactNode } from 'react';
 import { css } from '@emotion/react';
 import { Link, useRouteMatch } from 'react-router-dom';
 import { MenuItem, isNavigation } from '@@src/menu';
-import { Grid, Button, LinkListItem } from 'ui-modules';
+import {
+  Box, Button, LinkListItem, Container,
+} from 'ui-modules';
 import AppHeader from './components/app-header';
 import AppSidebar from './components/app-sidebar';
 
@@ -35,14 +37,16 @@ const classes = {
     flex-shrink: 0;
     flex-grow: 0;
   `,
+  childrenContainer: css`
+    height: 100%;
+    padding: 16px;
+  `,
 };
 
 function AppLayout(props: AppLayoutProps) {
   const { children, menuItems } = props;
 
   const routeMatch = useRouteMatch();
-
-  console.log('path-->\n', routeMatch.path);
 
   const linkList: LinkListItem[] = menuItems.map((el) => (isNavigation(el)
     ? {
@@ -73,15 +77,15 @@ function AppLayout(props: AppLayoutProps) {
     }));
 
   return (
-    <Grid container spacing={2} css={classes.appWrapper}>
-      <Grid css={classes.headerWrapper} item>
+    <Box css={classes.appWrapper}>
+      <Box css={classes.headerWrapper}>
         <AppHeader path={routeMatch.path} />
-      </Grid>
-      <Grid item css={classes.mainWrapper}>
+      </Box>
+      <Box css={classes.mainWrapper}>
         <AppSidebar linkList={linkList} />
-        {children}
-      </Grid>
-    </Grid>
+        <Container css={classes.childrenContainer}>{children}</Container>
+      </Box>
+    </Box>
   );
 }
 

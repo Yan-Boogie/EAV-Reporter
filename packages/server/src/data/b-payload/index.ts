@@ -13,7 +13,15 @@ export const bPayloadSections: IPayloadSection[] = [
     allowTypes: [RenderTypes.BAR_CHART],
   },
   {
-    sectionName: 'Users',
+    sectionName: 'LastLoginUsers',
+    allowTypes: [RenderTypes.TABLE],
+  },
+  {
+    sectionName: 'NewCreateUsers',
+    allowTypes: [RenderTypes.TABLE],
+  },
+  {
+    sectionName: 'RemoveUsers',
     allowTypes: [RenderTypes.TABLE],
   },
 ];
