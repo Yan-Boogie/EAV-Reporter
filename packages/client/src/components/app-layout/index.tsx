@@ -1,7 +1,8 @@
-import { ReactNode } from 'react';
+import { ReactNode, useContext } from 'react';
 import { css } from '@emotion/react';
 import { Link, useRouteMatch } from 'react-router-dom';
 import { MenuItem, isNavigation } from '@@src/menu';
+import { ConfigContext } from '@@src/config';
 import {
   Box, Button, LinkListItem, Container,
 } from 'ui-modules';
@@ -45,10 +46,13 @@ const classes = {
 
 function AppLayout(props: AppLayoutProps) {
   const { children, menuItems } = props;
+  const [config, setConfig] = useContext(ConfigContext);
 
   const routeMatch = useRouteMatch();
 
-  const linkList: LinkListItem[] = menuItems.map((el) => (isNavigation(el)
+  const fileteredMenu = menuItems.filter((el) => (config ? el.contextValid !== 0 : el.contextValid !== 1));
+
+  const linkList: LinkListItem[] = fileteredMenu.map((el) => (isNavigation(el)
     ? {
       label: el.label,
       component: ({ children: linkChildren, btnProps, ...rest }) => (
@@ -69,7 +73,7 @@ function AppLayout(props: AppLayoutProps) {
       label: el.label,
       component: ({ children: btnChildren, ...rest }) => <Button {...rest}>{btnChildren}</Button>,
       itemProps: {
-        onClick: el.action,
+        onClick: () => setConfig(''),
         color: 'inherit',
         css: classes.navBtn,
       },

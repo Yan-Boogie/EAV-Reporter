@@ -19,8 +19,8 @@ export type Navigation = {
 
 export type Button = {
   label: string;
-  action: () => void;
   icon: React.ElementType;
+  contextValid: ContextValid;
 };
 
 export type MenuItem = Navigation | Button;
@@ -56,5 +56,9 @@ export const isNavigation = (el: any): el is Navigation => 'path' in el && 'cont
 
 export const menuItems: MenuItem[] = [
   ...navigations,
-  { label: '重製報表', action: () => console.log('remove context!!'), icon: RestartAltIcon },
+  {
+    label: '重製報表',
+    icon: RestartAltIcon,
+    contextValid: 1,
+  },
 ];

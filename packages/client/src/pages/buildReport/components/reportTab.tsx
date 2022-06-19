@@ -76,6 +76,7 @@ const ReportTab = forwardRef<RefProps, ReportSectionProps>((props, ref) => {
   useImperativeHandle(ref, () => ({
     getValue: () => ({
       reportType: tabRef.current.getValue(),
+      sections: sectionList.map((el) => el.ref.current.getValue()),
     }),
   }));
 

@@ -1,5 +1,4 @@
 const path = require('path');
-const ip = require('ip');
 const webpack = require('webpack');
 const { merge } = require('webpack-merge');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
@@ -13,7 +12,7 @@ const {
   ANALYZE = 'false',
   NODE_ENV = 'development',
   PORT = NODE_ENV === 'production' ? '' : ':8050',
-  HTTP_HOST = NODE_ENV === 'production' ? '' : `http://${ip.address()}${PORT}`,
+  HTTP_HOST = NODE_ENV === 'production' ? '' : `http://localhost${PORT}`,
   GRAPHQL_HOST = `${HTTP_HOST}/graphql`,
 } = process.env;
 const NODE_MODULES_PATH = path.resolve(__dirname, 'node_modules');

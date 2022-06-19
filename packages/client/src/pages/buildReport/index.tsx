@@ -1,74 +1,41 @@
-import {
-  useCallback, createRef, useState, MutableRefObject, useRef, MouseEvent,
-} from 'react';
+import { useContext, useEffect } from 'react';
+import { useHistory } from 'react-router';
+import { useMutation } from '@apollo/client';
+import CircularProgress from '@mui/material/CircularProgress';
 import { css } from '@emotion/react';
-import { Box, Button } from 'ui-modules';
-import AddIcon from '@mui/icons-material/Add';
-import ReportTab from './components/reportTab';
-import InputField from './components/inputField';
+import { Box } from 'ui-modules';
+import { ConfigContext } from '@@src/config';
+import BuildReportComponent from './buildReport';
+import { BUILD_CONFIG_MUTATION } from './apis/config';
 
 const classes = {
-  container: css`
-    height: 100%;
+  loadingBox: css`
     width: 100%;
     display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 16px;
-    margin: 0 auto;
-  `,
-  input: css`
-    margin: 0 0 16px 0;
+    justify-content: center;
   `,
 };
 
-type TabList = {
-  idx: number;
-  ref: MutableRefObject<any>;
-  onClose: (event: MouseEvent<HTMLElement>) => void;
-}[];
-
-function BuildReportContext() {
-  const nameRef = useRef(null);
-  const [tabList, setTabList] = useState<TabList>([]);
-
-  const handleClose = useCallback(
-    (idx: number) => () => {
-      setTabList((prev) => [...prev.slice(0, idx), ...prev.slice(idx + 1)]);
+function BuildReport() {
+  const [config, setConfig] = useContext(ConfigContext);
+  const [buildReport, { loading, error }] = useMutation(BUILD_CONFIG_MUTATION, {
+    onCompleted(data) {
+      setConfig(data.buildReport.id);
     },
-    [],
-  );
+  });
+  const history = useHistory();
 
-  const handleAddClick = () => {
-    setTabList((prev) => [
-      ...prev,
-      {
-        idx: prev.length,
-        ref: createRef(),
-        onClose: handleClose(prev.length),
-      },
-    ]);
-  };
+  useEffect(() => {
+    if (config) history.replace('/report');
+  }, [config, history]);
 
-  return (
-    <Box css={classes.container} maxWidth="sm">
-      <InputField
-        css={classes.input}
-        fullWidth
-        required
-        ref={nameRef}
-        label="Report-Name"
-        placeholder="Please enter Report Name"
-      />
-      {tabList.map((el) => (
-        <ReportTab key={el.idx} onClose={el.onClose} ref={el.ref} />
-      ))}
-      <Button onClick={handleAddClick} startIcon={<AddIcon />}>
-        Add Report Tab
-      </Button>
+  return loading || error ? (
+    <Box css={classes.loadingBox}>
+      <CircularProgress size={24} />
     </Box>
+  ) : (
+    <BuildReportComponent buildReport={(props) => buildReport(props)} />
   );
 }
 
-export default BuildReportContext;
+export default BuildReport;

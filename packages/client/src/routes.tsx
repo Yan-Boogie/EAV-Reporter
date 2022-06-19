@@ -1,5 +1,4 @@
-import React from 'react';
-import { RouteProps } from 'react-router-dom';
+import { RouteProps, Redirect } from 'react-router-dom';
 import {
   BuildReport, History, HtmlReport, Report,
 } from './pages';
@@ -20,5 +19,9 @@ export const routes: RouteProps[] = [
   {
     path: 'report',
     children: <Report />,
+  },
+  {
+    path: ['', '*'],
+    children: ({ match }) => <Redirect to={`${match?.url}build-report`} />,
   },
 ];

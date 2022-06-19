@@ -3,6 +3,7 @@ import { ApolloProvider, ApolloClient, NormalizedCacheObject } from '@apollo/cli
 import { ThemeProvider } from 'ui-modules';
 import AppLayout from './components/app-layout';
 import Routes from './components/router/routes';
+import { ConfigProvider } from './config';
 import { routes } from './routes';
 import { menuItems } from './menu';
 
@@ -17,9 +18,11 @@ function App(props: AppProps) {
     <ApolloProvider client={client}>
       <BrowserRouter>
         <ThemeProvider>
-          <AppLayout menuItems={menuItems}>
-            <Routes routes={routes} />
-          </AppLayout>
+          <ConfigProvider>
+            <AppLayout menuItems={menuItems}>
+              <Routes routes={routes} />
+            </AppLayout>
+          </ConfigProvider>
         </ThemeProvider>
       </BrowserRouter>
     </ApolloProvider>

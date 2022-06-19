@@ -109,7 +109,7 @@ const ReportSection = forwardRef<RefProps, ReportSectionProps>((props, ref) => {
   useImperativeHandle(ref, () => ({
     getValue: () => ({
       sectionName: sectionNameRef.current.getValue(),
-      renderType: renderTypeRef.current.getValue(),
+      renderTypes: renderTypeRef.current.getValue(),
     }),
   }));
 
