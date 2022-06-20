@@ -2,11 +2,14 @@ import Koa from 'koa';
 import kcors from 'kcors';
 import http from 'http';
 import { ApolloServer } from 'apollo-server-koa';
+import path from 'path';
+import views from 'koa-views';
 import context from './helpers/context';
 import buildSchema from './schema';
 import { PORT } from './constants/port';
 import { NODE_ENV } from './constants/nodeEnv';
 import dbService from './service/dbService';
+import htmlReporter from './routes/htmlReporter';
 
 // init server
 const main = async () => {
@@ -23,8 +26,8 @@ const main = async () => {
 
   server.applyMiddleware({ app });
 
-  /** Apply SSR middware here */
-  // app.use();
+  app.use(views(path.resolve(__dirname, 'views'), { extension: 'ejs' }));
+  app.use(htmlReporter.routes());
 
   const httpServer = http.createServer(app.callback());
 
